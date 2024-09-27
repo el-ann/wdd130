@@ -8,18 +8,18 @@
 }
 
 .callout img {
-    position: right;
-    margin: 0,0,1rem,1rem;
+    position: right; 
+    margin: 15px;
     border: 1px solid black;
-    padding: 2px;
+    padding: 1px;
     background-color: white;
-    width: 150px;
-    height: auto;
-	
+    width: 90px;
+    height: 90px;
 }
 
 blockquote {
     margin: 0;
+    border-bottom: 1px dotted white;
 }
 
 cite {
@@ -28,5 +28,4 @@ cite {
     padding-top: 10px;
     text-align: right;
     font-size: smaller;
-	
 }
