@@ -1,10 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --main-bg-color: steelblue;
+    --main-bg-color: rgb(2, 74, 128);
     --main-padding: 10px;
-    --border: 1px solid rgba(0,0,0,0.2);
+    --main-border: 1px solid rgba(0,0,0,0.2);
     --main-text-color: white;
     --text-color: black;
     --box-color: whitesmoke;
+    --font-size: 16px;
 }
 
 nav{
@@ -23,11 +30,12 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: 110px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(8, 8, 8);
     padding: 2px;
-    box-shadow: 0 0 30px whitesmoke;
+    box-shadow: 0 0 30px rgb(210, 203, 203);
+    float: right;
 }
 
 p {
@@ -41,10 +49,6 @@ main {
 aside {
     width: 400px;
     margin: 5px;
-    border: 1px solid rgba(0,0,0,0.2);
-    padding: var(--main-padding);
-    background-color: var(--box-color);
-    color: var(--text-color);
 }
 
 aside img {
@@ -56,4 +60,25 @@ footer {
     margin-top: 5px;
     border-top: 1px solid rgba(0,0,0,0.1);
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: var(--main-border);
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: var(--text-color);
+}
+
+/* Overlay Country heading on the image */
+aside {
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
