@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #1B70BF;
+    --secondary-color: #689636;
+    --accent1-color: #FDFCFB;
+    --accent2-color: #1E3257;
+    --heading-color:rgb(26, 1, 1);
+    --text-color: black;
+    --background-color: white;
+    --link-color:rgb(54, 127, 245);
+    --link-hover-color: rgb(74, 74, 225);
+}
+
+h1, h2 {
+    color: var(--heading-color);
+}
+
+p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+body {
+    font-family: "Roboto Mono", system-ui;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--link-hover-color);
+}
+
+.hero {
+    position: relative; 
+    height: 400px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 2.5rem;
+    color: white;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.article img.float-img {
+    float: right;
+    width: 150px;
+    height: auto;
+    margin-left: 15px;
+}
