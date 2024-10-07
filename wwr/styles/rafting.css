@@ -44,8 +44,8 @@ header, main, footer {
 
 .hero h1 {
     position: absolute;
-    top: 1%;
-    left: 25%;
+    top: 3%;
+    left: 23%;
     font-size: 2.5rem;
     color: rgba(246, 242, 242, 0.786);
     background-color: rgba(18, 8, 8, 0.414);
@@ -58,7 +58,7 @@ header, main, footer {
     position: absolute;
     top: 40%;
     left:20%;
-    right: 15%;
+    right: 20%;
     background-color: rgba(41, 40, 94, 0.526);
     color: aliceblue;
     border-radius: 10px;
