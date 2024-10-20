@@ -7,7 +7,7 @@
     --text-color: black;
     --background-color: rgb(150, 146, 146);
     --body-font: "Roboto Mono", monospace;
-    --max-width: 1300px;
+    --max-width: 1200px;
 }
 
 * {
@@ -52,14 +52,22 @@ header, main, footer {
 
 .hero h1 {
     position: absolute;
-    top: 2%;
-    left: 25%;
+    top: 5%;
+    left: 0%;
     font-size: 2.5rem;
     color: white;
     background-color: rgba(18, 8, 8, 0.414);
     border: 1px solid rgba(83, 82, 82, 0.8);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 1px;
+}
+
+.heading1 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
 }
 
 .hero img {
@@ -218,7 +226,7 @@ form {
 
 .contact {
     position: absolute;
-    top: 25px;
+    top: 130px;
     left: 5px;
     right: 4px;
     padding: 4px;
@@ -279,9 +287,9 @@ button:hover {
 .address {
     background-color: rgba(8, 12, 10, 0.355);
     position: absolute;
-    top: 14rem;
+    top: 20rem;
     right: 0.9rem;
-    left: 47rem;
+    left: 43rem;
     width: 40%;
     padding: 3px;
 }
