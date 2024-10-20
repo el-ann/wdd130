@@ -233,7 +233,7 @@ form {
     margin: 0 1em;
     background-color: rgba(8, 12, 10, 0.355);
     color: white;
-    border: 0.5 px solid rgba(200, 197, 197, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.345);
 }
 
 .contact-fields {
@@ -296,7 +296,6 @@ button:hover {
 
 .add-phone {
     grid-row: 1;
-    width: 10;
 }
 
 .add-phone a, .add-phone address {
