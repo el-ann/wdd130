@@ -146,7 +146,7 @@ h2 {
     font-size: 2rem;
 }
 
-.history h2, .adventures h2, .employees h2 {
+.history h2, .adventures h2, .employees h2, .hero h1 {
     grid-column: 1 / -1;
     justify-self: center;
     padding: 1em;
