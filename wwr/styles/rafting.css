@@ -7,7 +7,7 @@
     --text-color: black;
     --background-color: rgb(150, 146, 146);
     --body-font: "Roboto Mono", monospace;
-    --max-width: 1280px;
+    --max-width: 1300px;
 }
 
 * {
@@ -218,12 +218,12 @@ form {
 
 .contact {
     position: absolute;
-    top: 15px;
+    top: 25px;
     left: 5px;
     right: 4px;
     padding: 4px;
     margin: 0 1em;
-    background-color: rgba(46, 106, 71, 0.486);
+    background-color: rgba(8, 12, 10, 0.355);
     color: white;
     border: 0.5 px solid rgba(200, 197, 197, 0.8);
 }
@@ -264,7 +264,7 @@ input [type="radio"] :hover {
 
 button {
     margin: 1rem;
-    background-color: green;
+    background-color: rgb(33, 13, 86);
     color: whitesmoke;
     border: none;
     border-radius: 5rem;
@@ -277,7 +277,7 @@ button:hover {
 }
 
 .address {
-    background-color: rgba(164, 152, 134, 0.585);
+    background-color: rgba(8, 12, 10, 0.355);
     position: absolute;
     top: 14rem;
     right: 0.9rem;
