@@ -304,6 +304,7 @@ button:hover {
     font-weight: 500;
     display: block;
     padding: 0.5em;
+    text-decoration: none;
 }
 
 .gmap {
