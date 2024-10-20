@@ -62,14 +62,6 @@ header, main, footer {
     border-radius: 1px;
 }
 
-.heading1 {
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-}
-
 .hero img {
     display: block;
     width: 100%;
@@ -226,7 +218,7 @@ form {
 
 .contact {
     position: absolute;
-    top: 125px;
+    top: 60px;
     left: 5px;
     right: 4px;
     padding: 1px;
@@ -287,7 +279,7 @@ button:hover {
 .address {
     background-color: rgba(8, 12, 10, 0.355);
     position: absolute;
-    top: 20rem;
+    top: 17rem;
     right: 0.9rem;
     left: 43rem;
     width: 40%;
@@ -318,4 +310,16 @@ button:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.1rem;
     justify-items: center;
+}
+
+.employees h1 {
+    position: absolute;
+    top: 655px;
+    left: 5%;
+    right: 5%;
+    background-color: #040434;
+    border: 1px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
 }
