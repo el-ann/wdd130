@@ -396,8 +396,8 @@ figure:nth-of-type(odd) {
 }
 
 figure:nth-of-type(even) {
-    background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
     align-self: center;
 }
 
