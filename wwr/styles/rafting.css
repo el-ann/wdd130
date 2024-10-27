@@ -475,6 +475,7 @@ figure:nth-of-type(even) {
     border: 10px solid #fff;
     box-shadow: 5px 5px 10px #6f7364;
     margin: 20px 0;
+    width: 150%;
 }
 
 .icon {
