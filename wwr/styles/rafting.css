@@ -444,17 +444,35 @@ figure:nth-of-type(even) {
 
 /*Home Page*/
 
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 6rem 0;
+}
+
 .card {
-    margin: 100px 0;
-    grid-row: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.rafting-card {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.tour-card {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.bbq-card {
+    grid-column: 6;
+    grid-row: 2;
+}
+
 .card-img {
-    border: 25px solid #fff;
-    width: 50%;
+    border: 10px solid #fff;
     box-shadow: 5px 5px 10px #6f7364;
     margin: 20px 0;
 }
@@ -465,21 +483,6 @@ figure:nth-of-type(even) {
 
 .caption {
     font-size: 1.2rem;
-}
-
-.bbq-card {
-    grid-column: 2 / 4;
-    grid-row: 2;
-}
-
-.tour-card {
-    grid-column: 6 / 8;
-    grid-row: 2;
-}
-
-.rafting-card {
-    grid-column: 10 / 12;
-    grid-row: 2;
 }
 
 .message {
@@ -528,7 +531,7 @@ figure:nth-of-type(even) {
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 .button-box:hover {
@@ -565,6 +568,7 @@ figure:nth-of-type(even) {
     color: white;
     margin: 1em 0;
     padding: 1em 0;
+    width: 25rem;
 }
 
 .newsletter-form .field-grid {
