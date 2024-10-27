@@ -113,7 +113,7 @@ nav a {
     display: flex;
     padding: 1rem;
     margin: -1rem;
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     color: #0000cb;
     text-decoration: none;
 }
